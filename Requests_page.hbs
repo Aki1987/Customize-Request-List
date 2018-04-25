@@ -147,8 +147,8 @@
                        }
                   }
                  
-                  document.getElementById("{{id}}").innerHTML = value;                   
-									document.getElementById("{{id}}-row").classList.add(value.replace(/ /g,"_"));  
+                  document.getElementById("{{id}}").innerHTML = value; 
+		  document.getElementById("{{id}}-row").classList.add(value.replace(/ /g,"_"));  
                   var x = document.getElementById("custom-select");
                   if(a.indexOf(value.split(' ')[0])<0) {
                   	x.innerHTML += "<option value=" + value.split(' ')[0] + ">" + value.split(' ')[0] + "</option> ";
